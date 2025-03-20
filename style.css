@@ -1,0 +1,22 @@
+/* General Styles */ 
+body { 
+font-family: Arial, sans-serif; 
+background-image: url('./World_map.png'); /* World Map */ 
+background-size: cover; 
+background-position: center; 
+background-attachment: fixed; 
+color: white; /* Ensures text is readable */ 
+text-align: center; 
+} 
+.container { 
+background: rgba(0, 0, 0, 0.6); /* Adds a slight dark overlay for better text visibility */ 
+padding: 30px; 
+border-radius: 10px; 
+} 
+/* Buttons Hover Effect */ 
+.grow { 
+transition: transform 0.3s ease-in-out; 
+} 
+.grow:hover { 
+transform: scale(1.1); 
+}
